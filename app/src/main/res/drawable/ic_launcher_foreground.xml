@@ -1,0 +1,20 @@
+<!-- Adaptive icon foreground (108dp canvas, art kept inside the central 66dp safe zone) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- speech bubble -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,36 h40 a6,6 0,0 1,6 6 v22 a6,6 0,0 1,-6 6 h-22 l-10,9 v-9 h-8 a6,6 0,0 1,-6 -6 v-22 a6,6 0,0 1,6 -6z" />
+    <!-- broadcast dot + waves inside the bubble -->
+    <path
+        android:fillColor="#FFC2410C"
+        android:pathData="M51,53a3,3 0,1 0,6 0a3,3 0,1 0,-6 0z" />
+    <path
+        android:strokeColor="#FFC2410C"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M48.5,47.5 A8,8 0,0 0,48.5 58.5 M59.5,47.5 A8,8 0,0 1,59.5 58.5 M44,43 A14,14 0,0 0,44 63 M64,43 A14,14 0,0 1,64 63" />
+</vector>
